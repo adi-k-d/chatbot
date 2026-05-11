@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "FastAPI Docker App Running"}
+    return {"message": "FastAPI Docker App with CI/CD Running"}
