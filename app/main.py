@@ -18,7 +18,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="FormAlert Booking Agent",
-    description="AI booking agent for Business-plan WhatsApp webhooks",
+    description="AI booking Chatbot for Business-plan WhatsApp webhooks",
     version="1.0.0",
     lifespan=lifespan,
 )
