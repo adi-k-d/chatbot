@@ -22,6 +22,9 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan,
 )
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the FormAlert Booking Agent"}
 
 setup_tracing(app)
 setup_metrics(app)
